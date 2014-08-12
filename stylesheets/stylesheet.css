@@ -308,6 +308,14 @@ dl dt {
   color: #303030;
 }
 
+.text-intro
+{
+  color: #d5000d;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
 footer {
   background: transparent url('../images/hr.png') 0 0 no-repeat;
   margin-top: 40px;
