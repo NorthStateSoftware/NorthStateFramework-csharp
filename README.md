@@ -28,6 +28,13 @@ b. Building the Software
 	* Executables will be created for the test project each of the example projects
 	* NorthStateFramework.dll will be created for use in other projects.
 
+c. Building the Documentation
+-----------------------------
+* If you wish to build the documentation you must first install Doxygen.
+* Open the solution
+* Right click on the Documentation project and choos build.
+
+
 Using NSF
 =========
 
