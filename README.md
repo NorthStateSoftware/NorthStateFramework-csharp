@@ -45,3 +45,4 @@ If you would rather not generate the documentation, you can use the online docum
 Contributing
 ============
 Before submitting changes to NorthStateFramework-csharp, please review the contribution guidelines at http://northstatesoftware.github.io/NorthStateFramework-csharp/wiki/Contributor-FAQ.
+
