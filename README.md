@@ -6,18 +6,18 @@ The North State Framework (NSF) is an object-oriented framework for implementing
 Coming Soon
 ===========
 
-1. [Installation](#compilation-and-installation)
+1. [Compilation](#compilation)
 2. [Using NSF](#using-nsf)
-3. [Contributing to NSF](#contributing-to-nsf) 
-4. [Documentation](#documentation)
+3. [Documentation](#documentation)
+4. [Contributing](#contributing) 
 
-Compilation and Installation
-============================
+Compilation
+===========
 
 a. Build Requirements
 ---------------------
 * The NSF in C# requires Microsoft .NET 2.0 for compilation.  
-* The solution provided is compatible with Visual Studio 8.
+* The solution provided is compatible with Visual Studio 9.
 * <a href="http://www.doxygen.org/">Doxygen</a> is required to build the documentation. (Optional)
 
 b. Building the Software
@@ -44,8 +44,8 @@ Documentation
 =============
 If you would rather not generate the documentation, you can use the online documentation located at http://northstatesoftware.github.io/NorthStateFramework-csharp/Documentation.
 
-Contributing to NSF
-====================
+Contributing
+============
 Before submitting changes to NorthStateFramework-csharp,, please review the contribution guidelines at http://northstatesoftware.github.io/NorthStateFramework-csharp/Contributing.
 
 For more information, see the pages <a href="http://northstatesoftware.github.io/NorthStateFramework-csharp/index.html">here.</a>
