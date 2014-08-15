@@ -32,11 +32,11 @@ c. Building the Documentation
 * If you wish to build the documentation you must first install Doxygen.
 * Open the solution
 * Right click on the Documentation project and choose build.
-* Index.html and other html pages will be generated to the \Documentation\Doxygen\HTML diretory.
+* Index.html and other html pages will be generated to the \Documentation\Doxygen\HTML directory.
 
 Using NSF
 =========
-NSF is a framework contained in a dll for inclusion in projects that require state machine behavior.  To start using  NSF, reference the NorthStateFramework.dll within you're project.  For an in-depth tutorial on using NSF, see the WorkingWithNorthStateFramework document contained in the solution.
+NSF is a framework contained in a dll for inclusion in projects that require state machine behavior.  To start using  NSF, reference the NorthStateFramework.dll within your project.  See the included examples.  For an in-depth tutorial on using NSF, see the WorkingWithNorthStateFramework document contained in the solution.
 
 Documentation
 =============
@@ -44,4 +44,4 @@ If you would rather not generate the documentation, you can use the online docum
 
 Contributing
 ============
-Before submitting changes to NorthStateFramework-csharp, please review the contribution guidelines at http://northstatesoftware.github.io/NorthStateFramework-csharp/Contributing.
+Before submitting changes to NorthStateFramework-csharp, please review the contribution guidelines at http://northstatesoftware.github.io/NorthStateFramework-csharp/Contributor-FAQ.
