@@ -42,10 +42,10 @@ NSF is a framework contained in a dll for inclusion in projects that require sta
 
 Documentation
 =============
-If you would rather not generate the documentation, you can use the online documentation located at http://northstatesoftware.github.io/NorthStateFramework-csharp/Documentation/index.html.
+If you would rather not generate the documentation, you can use the online documentation located at http://northstatesoftware.github.io/NorthStateFramework-csharp/Documentation.
 
 Contributing to NSF
 ====================
-Before submitting changes to NorthStateFramework-csharp,, please review the contribution guidelines at http://www.northstatesoftware.com/Contributing.
+Before submitting changes to NorthStateFramework-csharp,, please review the contribution guidelines at http://northstatesoftware.github.io/NorthStateFramework-csharp/Contributing.
 
 For more information, see the pages <a href="http://northstatesoftware.github.io/NorthStateFramework-csharp/index.html">here.</a>
