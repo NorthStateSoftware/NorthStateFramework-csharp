@@ -15,14 +15,14 @@ Compilation and Installation
 
 a. Build Requirements
 ---------------------
-* The NSF in C# requires microsoftw .NET 2.0 for compilation.  
+* The NSF in C# requires Microsoft .NET 2.0 for compilation.  
 * The solution provided is compatible with Visual Studio 8.
 * <a href="http://www.doxygen.org/">Doxygen</a> is required to build the documentation. (Optional)
 
 b. Building the Software
 ------------------------
 * Open the file NorthStateFrameworkInC#Development.sln within Visual Studio.
-* Choose either Debug or Release build configuraitons.
+* Choose either Debug or Release build configurations.
 * Build the code from the IDE
 * Output will be placed in the Build directory
 	* Executables will be created for the test project each of the example projects
@@ -32,12 +32,12 @@ c. Building the Documentation
 -----------------------------
 * If you wish to build the documentation you must first install Doxygen.
 * Open the solution
-* Right click on the Documentation project and choos build.
+* Right click on the Documentation project and choose build.
 
 
 Using NSF
 =========
-NSF is a framework contained in a dll for inclusion in projects that require state machine behavior.  To start using the NSF, reference the NorthStateFramework.dll within you're project.  For an in-depth totorial on using NSF see the WorkingWithNorthStateFramework document contained in the solution.
+NSF is a framework contained in a dll for inclusion in projects that require state machine behavior.  To start using the NSF, reference the NorthStateFramework.dll within you're project.  For an in-depth tutorial on using NSF see the WorkingWithNorthStateFramework document contained in the solution.
 
 
 Contributing to NSF
