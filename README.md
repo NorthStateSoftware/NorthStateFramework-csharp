@@ -9,6 +9,7 @@ Coming Soon
 1. [Installation](#compilation-and-installation)
 2. [Using NSF](#using-nsf)
 3. [Contributing to NSF](#contributing-to-nsf) 
+4. [Documentation](#documentation)
 
 Compilation and Installation
 ============================
@@ -39,6 +40,9 @@ Using NSF
 =========
 NSF is a framework contained in a dll for inclusion in projects that require state machine behavior.  To start using the NSF, reference the NorthStateFramework.dll within you're project.  For an in-depth tutorial on using NSF see the WorkingWithNorthStateFramework document contained in the solution.
 
+Documentation
+=============
+If you would rather not generate the documentation, you can use the online documentation located at http://northstatesoftware.github.io/NorthStateFramework-csharp/Documentation/index.html.
 
 Contributing to NSF
 ====================
