@@ -1,0 +1,120 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2E2DE33E-F92F-4EDF-AE4D-EE4CB1CF1FEE}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NSFTest</RootNamespace>
+    <AssemblyName>NSFTest</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Build\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Build\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChoiceStateTest.cs" />
+    <Compile Include="ContinuouslyRunningTest.cs" />
+    <Compile Include="ContextSwitchTest.cs" />
+    <Compile Include="MultipleStateMachineStressTest.cs" />
+    <Compile Include="StateMachineDeleteTest.cs" />
+    <Compile Include="MemoryUsageTest.cs" />
+    <Compile Include="TimerAccuracyTest.cs" />
+    <Compile Include="TimerGetTimeTest.cs" />
+    <Compile Include="TimerObservedTimeGapTest.cs" />
+    <Compile Include="TimerResolutionTest.cs" />
+    <Compile Include="TraceAddTest.cs" />
+    <Compile Include="DocumentLoadTest.cs" />
+    <Compile Include="DocumentNavigationTest.cs" />
+    <Compile Include="TransitionOrderTest.cs" />
+    <Compile Include="StrategyTest.cs" />
+    <Compile Include="ExceptionHandlingTest.cs" />
+    <Compile Include="ExtendedRunTest.cs" />
+    <Compile Include="MultipleTriggersOnTransitionTest.cs" />
+    <Compile Include="StateMachineRestartTest.cs" />
+    <Compile Include="ForkJoinToForkJoinTransitionTest.cs" />
+    <Compile Include="DeepHistoryReEntryTest.cs" />
+    <Compile Include="BasicForkJoinTest.cs" />
+    <Compile Include="DeepHistoryTest.cs" />
+    <Compile Include="ShallowHistoryTest.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BasicStateMachineTest.cs" />
+    <Compile Include="TestHarness.cs" />
+    <Compile Include="TestInterface.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Framework\NorthStateFramework.csproj">
+      <Project>{3BDD586C-AC27-41D3-A507-2A5692D93E29}</Project>
+      <Name>NorthStateFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Documentation\ChoiceStateTest.vsd" />
+    <None Include="Documentation\BasicStateMachineTest.vsd" />
+    <None Include="Documentation\StateMachineRestartTest.vsd" />
+    <None Include="Documentation\ForkJoinToForkJoinTransitionTest.vsd" />
+    <None Include="Documentation\MultipleTriggersOnTransitionTest.vsd" />
+    <None Include="Documentation\ExtendedRunTest.vsd" />
+    <None Include="Documentation\ExceptionHandlingTest.vsd" />
+    <None Include="Documentation\StrategyTest.vsd" />
+    <None Include="Documentation\TransitionOrderTest.vsd" />
+    <None Include="Documentation\ShallowHistoryTest.vsd" />
+    <None Include="Documentation\DeepHistoryTest.vsd" />
+    <None Include="Documentation\BasicForkJoinTest.vsd" />
+    <None Include="Documentation\DeepHistoryReEntryTest.vsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="InvalidTest.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ValidTest.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>
