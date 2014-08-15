@@ -37,6 +37,8 @@ c. Building the Documentation
 
 Using NSF
 =========
+NSF is a framework contained in a dll for inclusion in projects that require state machine behavior.  To start using the NSF, reference the NorthStateFramework.dll within you're project.  For an in-depth totorial on using NSF see the WorkingWithNorthStateFramework document contained in the solution.
+
 
 Contributing to NSF
 ====================
