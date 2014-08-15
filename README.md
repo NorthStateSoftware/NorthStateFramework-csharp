@@ -24,7 +24,7 @@ b. Building the Software
 * Choose either Debug or Release build configurations.
 * Build the code from the IDE
 * Output will be placed in the Build directory
-	* Executables will be created for the test project each of the example projects
+	* Executables will be created for the test project and each of the example projects
 	* NorthStateFramework.dll will be created for use in other projects.
 
 c. Building the Documentation
@@ -36,7 +36,7 @@ c. Building the Documentation
 
 Using NSF
 =========
-NSF is a framework contained in a dll for inclusion in projects that require state machine behavior.  To start using the NSF, reference the NorthStateFramework.dll within you're project.  For an in-depth tutorial on using NSF see the WorkingWithNorthStateFramework document contained in the solution.
+NSF is a framework contained in a dll for inclusion in projects that require state machine behavior.  To start using  NSF, reference the NorthStateFramework.dll within you're project.  For an in-depth tutorial on using NSF, see the WorkingWithNorthStateFramework document contained in the solution.
 
 Documentation
 =============
@@ -44,4 +44,4 @@ If you would rather not generate the documentation, you can use the online docum
 
 Contributing
 ============
-Before submitting changes to NorthStateFramework-csharp,, please review the contribution guidelines at http://northstatesoftware.github.io/NorthStateFramework-csharp/Contributing.
+Before submitting changes to NorthStateFramework-csharp, please review the contribution guidelines at http://northstatesoftware.github.io/NorthStateFramework-csharp/Contributing.
