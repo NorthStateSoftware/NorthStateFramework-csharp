@@ -1,12 +1,7 @@
 NorthStateFramework-csharp
 ==========================
 
-The North State Framework (NSF) is an object-oriented framework for implementing UML state machines.
-
-Coming Soon
-===========
-
-For more information, see the pages <a href="http://northstatesoftware.github.io/NorthStateFramework-csharp/index.html">here.</a>
+The North State Framework (NSF) is an object-oriented framework for implementing UML state machines.  For more information, see the pages <a href="http://northstatesoftware.github.io/NorthStateFramework-csharp/index.html">here.</a>
 
 
 1. [Compilation](#compilation)
@@ -50,5 +45,3 @@ If you would rather not generate the documentation, you can use the online docum
 Contributing
 ============
 Before submitting changes to NorthStateFramework-csharp,, please review the contribution guidelines at http://northstatesoftware.github.io/NorthStateFramework-csharp/Contributing.
-
-For more information, see the pages <a href="http://northstatesoftware.github.io/NorthStateFramework-csharp/index.html">here.</a>
