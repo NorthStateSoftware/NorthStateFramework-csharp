@@ -21,6 +21,12 @@ a. Build Requirements
 
 b. Building the Software
 ------------------------
+* Open the file NorthStateFrameworkInC#Development.sln within Visual Studio.
+* Choose either Debug or Release build configuraitons.
+* Build the code from the IDE
+* Output will be placed in the Build directory
+	* Executables will be created for the test project each of the example projects
+	* NorthStateFramework.dll will be created for use in other projects.
 
 Using NSF
 =========
