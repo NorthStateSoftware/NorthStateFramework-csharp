@@ -15,6 +15,9 @@ Compilation and Installation
 
 a. Build Requirements
 ---------------------
+* The NSF in C# requires microsoftw .NET 2.0 for compilation.  
+* The solution provided is compatible with Visual Studio 8.
+* <a href="http://www.doxygen.org/">Doxygen</a> is required to build the documentation. (Optional)
 
 b. Building the Software
 ------------------------
