@@ -6,6 +6,9 @@ The North State Framework (NSF) is an object-oriented framework for implementing
 Coming Soon
 ===========
 
+For more information, see the pages <a href="http://northstatesoftware.github.io/NorthStateFramework-csharp/index.html">here.</a>
+
+
 1. [Compilation](#compilation)
 2. [Using NSF](#using-nsf)
 3. [Documentation](#documentation)
