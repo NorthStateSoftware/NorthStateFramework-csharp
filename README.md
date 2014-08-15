@@ -33,7 +33,7 @@ c. Building the Documentation
 * If you wish to build the documentation you must first install Doxygen.
 * Open the solution
 * Right click on the Documentation project and choose build.
-
+* Index.html and other html pages will be generated to the \Documentation\Doxygen\HTML diretory.
 
 Using NSF
 =========
