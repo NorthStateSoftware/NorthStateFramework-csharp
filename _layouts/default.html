@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+    <body>
+	    <div class="container">
+			    {% include header.html %}
+		    <div class="inner">
+			{% if page.title %}
+				<p>
+					<span class = "site-title">    {{ page.title }} </span>
+				</p>
+				<hr/>
+			{% endif %}
+			{{ content }}
+			{% include comments.html %}
+		    {% include footer.html %}
+			</div>
+		</div>
+    </body>
+</html>

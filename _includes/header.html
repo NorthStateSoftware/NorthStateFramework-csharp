@@ -1,0 +1,14 @@
+
+
+<header class="site-header">
+
+		    <div class="inner">
+		<a class="header-nav-link" href="{{ site.baseurl }}/">{{ site.short_name }}</a>
+		<a class="header-nav-link" href="{{site.baseurl }}/Documentation/index.html">Documentation</a>
+		{% for page in site.pages %}
+			{% if page.title %}
+				<a class="header-nav-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+			{% endif %}
+		{% endfor %}
+</div>
+</header>

@@ -50,7 +50,7 @@ table {
 body {
   font-size: 1em;
   line-height: 1.5; 
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
+/*  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;*/
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
   color: #6d6d6d;
@@ -64,9 +64,10 @@ a:hover {
 }
 
 header {
-  padding-top: 35px;
-  padding-bottom: 25px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
+
 
 header h1 {
   font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
@@ -84,8 +85,8 @@ header h2 {
   line-height: 1.3;
 }
 
-#container {
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+.container {
+/*  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;*/
   min-height: 595px;
 }
 
@@ -119,7 +120,7 @@ a.button {
   float: left;
   width: 179px;
   margin-right: 14px;  
-  background: #fdfdfd; /* Old browsers */
+  background: #000000; /* Old browsers */
   background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
@@ -210,10 +211,14 @@ hr {
 
 strong {
   font-weight: bold;
+  background: Yellow;
 }
 
 em {
-  font-style: italic;
+  color: #d5000d;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 
 table {
@@ -288,8 +293,8 @@ p a {
 }
 
 blockquote {
-  font-size: 1.6em;
-  border-left: 10px solid #e9e9e9;
+  font-size: 1em;
+  border-left: 10px solid darkgrey;
   margin-bottom: 20px;
   padding: 0 0 0 30px;
 }
@@ -377,3 +382,162 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
+
+  .wrap { padding: 0 12px; }
+
+
+  .site-nav {
+  	text-align: right;
+    z-index: 10;
+    top: 30px; right: 30px;
+    background-color: #fdfdfd;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    width: 620;
+	border-top: solid 1px #cbcbcb;
+	border-left: solid 1px #b7b7b7;
+	border-right: solid 1px #b7b7b7;
+	border-bottom: solid 1px #b3b3b3;
+	background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* IE10+ */
+	background: linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* W3C */
+  }
+
+  .page-link {
+	font-size: 22px;
+	font-weight: bold;
+	color: #303030;
+	margin-bottom: 8px;
+	letter-spacing: -1px;
+	line-height: 1.2;
+	text-align: center;
+	padding: 5px 10px;
+	margin: 0;
+}
+ 
+ .site-header {
+	  background-color: #f2f2f2;
+    border-width: 3px;
+    border-bottom: solid;
+	  border-color: gray;
+}
+
+.site-title {
+  
+  font-size: 32px;
+  color: #303030;
+  line-height: 1.2;
+  padding-top: 20px;
+  display: block;
+}
+
+ .meta {
+ text-align: right;
+font-size: 0.8em;
+ font-style: italic
+}
+
+.highlight  { background: #ffffff; }
+.highlight .c { color: #999988; font-style: italic } /* Comment */
+.highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.highlight .k { font-weight: bold } /* Keyword */
+.highlight .o { font-weight: bold } /* Operator */
+.highlight .cm { color: #999988; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #999999; font-weight: bold } /* Comment.Preproc */
+.highlight .c1 { color: #999988; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #999999; font-weight: bold; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+.highlight .gd .x { color: #000000; background-color: #ffaaaa } /* Generic.Deleted.Specific */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #aa0000 } /* Generic.Error */
+.highlight .gh { color: #999999 } /* Generic.Heading */
+.highlight .gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
+.highlight .gi .x { color: #000000; background-color: #aaffaa } /* Generic.Inserted.Specific */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #555555 } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #aaaaaa } /* Generic.Subheading */
+.highlight .gt { color: #aa0000 } /* Generic.Traceback */
+.highlight .kc { font-weight: bold } /* Keyword.Constant */
+.highlight .kd { font-weight: bold } /* Keyword.Declaration */
+.highlight .kp { font-weight: bold } /* Keyword.Pseudo */
+.highlight .kr { font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #445588; font-weight: bold } /* Keyword.Type */
+.highlight .m { color: #009999 } /* Literal.Number */
+.highlight .s { color: #d14 } /* Literal.String */
+.highlight .na { color: #008080 } /* Name.Attribute */
+.highlight .nb { color: #0086B3 } /* Name.Builtin */
+.highlight .nc { color: #445588; font-weight: bold } /* Name.Class */
+.highlight .no { color: #008080 } /* Name.Constant */
+.highlight .ni { color: #800080 } /* Name.Entity */
+.highlight .ne { color: #990000; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #990000; font-weight: bold } /* Name.Function */
+.highlight .nn { color: #555555 } /* Name.Namespace */
+.highlight .nt { color: #000080 } /* Name.Tag */
+.highlight .nv { color: #008080 } /* Name.Variable */
+.highlight .ow { font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mf { color: #009999 } /* Literal.Number.Float */
+.highlight .mh { color: #009999 } /* Literal.Number.Hex */
+.highlight .mi { color: #009999 } /* Literal.Number.Integer */
+.highlight .mo { color: #009999 } /* Literal.Number.Oct */
+.highlight .sb { color: #d14 } /* Literal.String.Backtick */
+.highlight .sc { color: #d14 } /* Literal.String.Char */
+.highlight .sd { color: #d14 } /* Literal.String.Doc */
+.highlight .s2 { color: #d14 } /* Literal.String.Double */
+.highlight .se { color: #d14 } /* Literal.String.Escape */
+.highlight .sh { color: #d14 } /* Literal.String.Heredoc */
+.highlight .si { color: #d14 } /* Literal.String.Interpol */
+.highlight .sx { color: #d14 } /* Literal.String.Other */
+.highlight .sr { color: #009926 } /* Literal.String.Regex */
+.highlight .s1 { color: #d14 } /* Literal.String.Single */
+.highlight .ss { color: #990073 } /* Literal.String.Symbol */
+.highlight .bp { color: #999999 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #008080 } /* Name.Variable.Class */
+.highlight .vg { color: #008080 } /* Name.Variable.Global */
+.highlight .vi { color: #008080 } /* Name.Variable.Instance */
+.highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+
+.github-icon-svg,
+.twitter-icon-svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 3px;
+}
+
+.innerColumn {
+	width: 30%;
+	float: left;
+	margin-right: 50px;
+}
+
+.rightColumn {
+  width: auto;
+  float: none;
+}
+
+.header-nav-item{
+	float:left}
+
+.header-nav-item.active 
+.dropdown-menu-content{
+	display:block
+}
+
+.header-nav-item.active .tooltipped:before,
+.header-nav-item.active .tooltipped:after{
+display:none}
+
+.header-nav-link{
+	padding:4px 8px;
+	font-size:13px;
+	font-weight:bold;
+	line-height:20px;
+	color:#333333
+}

@@ -1,0 +1,11 @@
+<section id="downloads" class="clearfix">
+	{% if site.zipball %}
+		<a href={{site.zipball}} id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+	{% endif %}
+	{% if site.tarball %}
+		<a href={{site.tarball}} id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+	{% endif %}
+	{% if site.repo %}
+		<a href={{site.repo}} id="view-on-github" class="button"><span>View on GitHub</span></a>
+	{% endif %}
+</section>
