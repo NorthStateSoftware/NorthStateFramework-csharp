@@ -1,6 +1,18 @@
+# Site settings
+title: NorthStateFramework-csharp
+email: support@northstatesoftware.com
 description: An object-oriented framework for implementing UML state machines.
 short_name: NSF C#
 copywrite_notice: 2014 
 owner: North State Software, LLC.  
 baseurl: "/NorthStateFramework-csharp"
 url: "http://www.northstatesoftware.com"
+twitter_username:
+github_username:  NorthStateSoftware
+zipball: "https://github.com/NorthStateSoftware/NorthStateFramework-csharp/archive/V3.0.0.zip"
+tarball: "https://github.com/NorthStateSoftware/NorthStateFramework-csharp/archive/V3.0.0.tar.gz"
+repo: "https://github.com/NorthStateSoftware/NorthStateFramework-csharp"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
