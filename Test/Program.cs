@@ -1,4 +1,4 @@
-// Copyright 2004-2014, North State Software, LLC.  All rights reserved.
+// Copyright 2004-2016, North State Software, LLC.  All rights reserved.
 
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU General Public License
@@ -64,7 +64,7 @@ namespace NSFTest
                 tests.Add(new TimerObservedTimeGapTest("Timer Observed Time Gap Test"));
             }
             // Set up global exception handler
-            NSFExceptionHandler.ExceptionActions += globalHandleException;
+            NSFExceptionHandler.ExceptionActions += globalExceptionAction;
 
             // Run Test
             bool allTestPassed = true;
@@ -107,7 +107,7 @@ namespace NSFTest
             NSFEnvironment.terminate();
         }
 
-        static void globalHandleException(NSFExceptionContext context)
+        static void globalExceptionAction(NSFExceptionContext context)
         {
             if (!context.Exception.ToString().Contains(ExceptionHandlingTest.IntentionalExceptionString))
             {

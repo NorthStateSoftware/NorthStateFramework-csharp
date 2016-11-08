@@ -1,4 +1,3 @@
-/*.suo
 Build
 HTML
 /Documentation/Doxygen/DoxygenLogfile.txt
@@ -6,4 +5,7 @@ obj
 /*.ncb
 *.user
 *.vspscc
+*.sdf
+*.opensdf
+
 

@@ -1,4 +1,4 @@
-// Copyright 2004-2014, North State Software, LLC.  All rights reserved.
+// Copyright 2004-2016, North State Software, LLC.  All rights reserved.
 
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU General Public License
@@ -29,6 +29,8 @@ namespace WorkHardPlayHardExample
 
         static void Main(String[] args)
         {
+            NSFExceptionHandler.ExceptionActions += globalExceptionAction;
+
             NSFTraceLog.PrimaryTraceLog.Enabled = true;
 
             WorkHardPlayHard workHardPlayHardExample = new WorkHardPlayHard("WorkHardPlayHardExample");
@@ -55,6 +57,11 @@ namespace WorkHardPlayHardExample
             Console.ReadKey();
 
             NSFEnvironment.terminate();
+        }
+
+        static void globalExceptionAction(NSFExceptionContext context)
+        {
+            NSFDebugUtility.PrimaryDebugUtility.writeLineToConsole("Exception caught: " + context.Exception.ToString());
         }
     }
 }

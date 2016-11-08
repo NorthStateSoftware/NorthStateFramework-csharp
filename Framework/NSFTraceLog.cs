@@ -1,4 +1,4 @@
-// Copyright 2004-2014, North State Software, LLC.  All rights reserved.
+// Copyright 2004-2016, North State Software, LLC.  All rights reserved.
 
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU General Public License
@@ -20,6 +20,37 @@ using NSFString = System.String;
 
 namespace NorthStateSoftware.NorthStateFramework
 {
+    /// <summary>
+    /// Represents commonly used tags for the trace log.
+    /// </summary>
+    public class NSFTraceTags
+    {
+        #region Public Fields, Events, and Properties
+
+        public const NSFString ActionExecutedTag = "ActionExecuted";
+        public const NSFString ActionTag = "Action";
+        public const NSFString DestinationTag = "Destination";
+        public const NSFString ErrorTag = "Error";
+        public const NSFString EventQueuedTag = "EventQueued";
+        public const NSFString EventTag = "Event";
+        public const NSFString ExceptionTag = "Exception";
+        public const NSFString InformationalTag = "Informational";
+        public const NSFString MessageReceivedTag = "MessageReceived";
+        public const NSFString MessageSentTag = "MessageSent";
+        public const NSFString MessageTag = "Message";
+        public const NSFString NameTag = "Name";
+        public const NSFString ObjectTag = "Object";
+        public const NSFString SourceTag = "Source";
+        public const NSFString StateEnteredTag = "StateEntered";
+        public const NSFString StateMachineTag = "StateMachine";
+        public const NSFString StateTag = "State";
+        public const NSFString UnknownTag = "Unknown";
+        public const NSFString ValueTag = "Value";
+        public const NSFString VariableTag = "Variable";
+
+        #endregion Public Fields, Events, and Properties
+    }
+
     /// <summary>
     /// Represents a trace log.
     /// </summary>
@@ -283,36 +314,5 @@ namespace NorthStateSoftware.NorthStateFramework
         private NSFDataEvent<NSFString> traceSaveEvent;
 
         #endregion Private Fields, Events, and Properties
-    }
-
-    /// <summary>
-    /// Represents commonly used tags for the trace log.
-    /// </summary>
-    public class NSFTraceTags
-    {
-        #region Public Fields, Events, and Properties
-
-        public const NSFString ActionExecutedTag = "ActionExecuted";
-        public const NSFString ActionTag = "Action";
-        public const NSFString DestinationTag = "Destination";
-        public const NSFString ErrorTag = "Error";
-        public const NSFString EventQueuedTag = "EventQueued";
-        public const NSFString EventTag = "Event";
-        public const NSFString ExceptionTag = "Exception";
-        public const NSFString InformationalTag = "Informational";
-        public const NSFString MessageReceivedTag = "MessageReceived";
-        public const NSFString MessageSentTag = "MessageSent";
-        public const NSFString MessageTag = "Message";
-        public const NSFString NameTag = "Name";
-        public const NSFString ObjectTag = "Object";
-        public const NSFString SourceTag = "Source";
-        public const NSFString StateEnteredTag = "StateEntered";
-        public const NSFString StateMachineTag = "StateMachine";
-        public const NSFString StateTag = "State";
-        public const NSFString UnknownTag = "Unknown";
-        public const NSFString ValueTag = "Value";
-        public const NSFString VariableTag = "Variable";
-
-        #endregion Public Fields, Events, and Properties
     }
 }

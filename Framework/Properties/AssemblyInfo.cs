@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("North State Software")]
 [assembly: AssemblyProduct("North State Framework")]
-[assembly: AssemblyCopyright("Copyright 2004-2014, North State Software, LLC.  All rights reserved.")]
+[assembly: AssemblyCopyright("Copyright 2004-2016, North State Software, LLC.  All rights reserved.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
