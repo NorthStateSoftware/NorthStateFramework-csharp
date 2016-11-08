@@ -7,5 +7,6 @@ obj
 *.vspscc
 *.sdf
 *.opensdf
+*.suo
 
 
